@@ -1,0 +1,136 @@
+body{
+  background-image: url(./fondo.jpg);
+  background-repeat: no-repeat;
+background-size: 100%;
+}
+
+
+
+.windows{
+
+background-color: #181818;
+color: white;
+width: 20px;
+height: 110px;
+margin-left: 3000px;
+margin-top: 100px;
+padding-right: 10px;
+
+}
+
+#text{
+display: flex;
+justify-content: flex-end;
+}
+#textold{
+  display: flex;
+justify-content: flex-end;
+}
+
+.buttons{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 95px 95px 95px 95px;
+  grid-template-rows: 60px 60px 60px 60px;
+  justify-content: center;
+}
+.number:hover{
+background-color: #666666;
+}
+.operator:hover{
+background-color:#666666;
+
+}
+#zero{
+  width: 20px;
+  height: 40px;
+}
+.number{
+  border: 0px;
+  color: white;
+  margin: 0.5px;
+  background-color: #111;
+ 
+}
+
+.operator{
+  border: 0px;
+  color: white;
+  margin: 0.5px;
+  background-color: #181818;
+}
+
+
+/*Efectos*/
+
+
+#multiply{
+margin-left: 3000px;
+}
+
+#clear{
+margin-left: 3000px;
+}
+
+#divide{
+margin-left: 3000px;
+}
+
+#deletenumber{
+margin-left: 3000px;
+}
+
+
+
+#one{
+margin-left: 3000px;
+}
+
+#two{
+margin-left: 3000px;
+}
+
+#three{
+margin-left: 3000px;
+}
+
+#add{
+margin-left: 3000px;
+}
+
+
+#four{
+margin-left: 3000px;
+}
+
+#five{
+margin-left: 3000px;
+}
+
+#six{
+margin-left: 3000px;
+}
+
+#deduct{
+margin-left: 3000px;
+}
+
+#seven{
+margin-left: 3000px;
+}
+
+#eight{
+margin-left: 3000px;
+}
+
+#nine{
+margin-left: 3000px;
+}
+
+#equal{
+margin-left: 3000px;
+}
+
+#zero{
+margin-left: 2000px;
+}
